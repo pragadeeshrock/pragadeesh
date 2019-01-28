@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+int temp,temp1,a,c=0,rem,sum=0;
+clrscr();
+scanf("%d",&a);
+temp=a;
+temp1=a;
+while(a>0)
+{
+a=a/10;
+c++;
+}
+while(temp>0)
+{
+rem=temp%10;
+sum=sum+pow(rem,c);
+temp=temp/10;
+}
+if(sum==temp1)
+{
+printf("yes");
+}
+else
+{
+printf("no");
+}
+getch();
+}
