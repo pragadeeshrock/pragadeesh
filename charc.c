@@ -7,7 +7,7 @@ int i,len=0,vowel,consonant;
 scanf("%s",&a);
 vowel=0;
 consonant=0;
-for(I=0;a[i]!='\0';i++)
+for(i=0;a[i]!='\0';i++)
 {
 if((a[i]>='a'&&a[i]<='z')||(a[i]>='A'&&a[i]<='Z'))
 {
