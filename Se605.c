@@ -3,7 +3,7 @@
 int main()
 {
     switch (printf("Hello World ")) 
-    {
+{
     
-    }
+}
 }
