@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main()
 {
 	int n,k,res=1,i;
